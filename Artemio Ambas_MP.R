@@ -3,7 +3,7 @@
 # Submitted by: Artemio R. Ambas Jr. #
 ######################################
 
-#-Problem number 1 - Remove NA in a vector
+#- Problem number 1 - Remove NA in a vector
 remove.na<-function(v1) {
     v2<-vector(length=length(v1))
     j<-0

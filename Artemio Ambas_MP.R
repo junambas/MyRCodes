@@ -93,7 +93,7 @@ get.determinant<-function(dmatrix)
 }
 #- end of number 3
 
-#- Problem number 5 - Accept date in POSIXct and out day of week in character
+#- Problem number 5 - Accept date in POSIXct and output day of week in character
 get.weekday<-function(date.input){
   date.input<-as.POSIXct(date.input)
   char.weekday<-c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
@@ -168,7 +168,7 @@ compute.netpay<-function(gross.salary,taxable.benefits,nontaxable.benefits)
 }
 #- end of number 6
 
-#- Problem number 8 - Computes compound interest
+#- Problem number 8 - Computes for the compound interest
 get.compounded<-function(principal.amount,interest.rate,number.of.times,time) {
   interest.rate<-interest.rate/100
   compounded.amount<-principal.amount*((1+(interest.rate/number.of.times))^(time*number.of.times))

@@ -1,5 +1,5 @@
 #- File created by Jun Ambas
-#- UAP MABA 2018
+#- UAP MABA 2018 - MAB2111
 #- Prof. Elmer Peramo
 
 This file was created to describe the purpose of the 2 R Programs created for MAB2111 course.

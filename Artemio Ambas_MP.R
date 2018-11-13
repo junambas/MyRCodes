@@ -18,7 +18,7 @@ remove.na<-function(v1) {
     v1<-v2
     return(v1)
   }
-#- end of number 1
+#- End of number 1
 
 #- Problem number 3 - Compute determinant of a given matrix
 get.determinant<-function(dmatrix) 
@@ -91,7 +91,7 @@ get.determinant<-function(dmatrix)
     }
   }
 }
-#- end of number 3
+#- End of number 3
 
 #- Problem number 5 - Accept date in POSIXct and output day of week in character
 get.weekday<-function(date.input){
@@ -106,7 +106,7 @@ get.weekday<-function(date.input){
   weekday.num <- days.total %% 7
   return(char.weekday[weekday.num+1])
 }
-#- end of number 5
+#- End of number 5
 
 #- Problem number 6 - Function to compute net pay at work
 compute.netpay<-function(gross.salary,taxable.benefits,nontaxable.benefits)
@@ -166,7 +166,7 @@ compute.netpay<-function(gross.salary,taxable.benefits,nontaxable.benefits)
   net.pay<-(((gross.salary+taxable.benefits)*(1-tax.rate))+nontaxable.benefits)-(sss+philhealth+pagibig)
   return(net.pay)
 }
-#- end of number 6
+#- End of number 6
 
 #- Problem number 8 - Computes for the compound interest
 get.compounded<-function(principal.amount,interest.rate,number.of.times,time) {
@@ -174,6 +174,6 @@ get.compounded<-function(principal.amount,interest.rate,number.of.times,time) {
   compounded.amount<-principal.amount*((1+(interest.rate/number.of.times))^(time*number.of.times))
   return(compounded.amount)
 }
-#- end of number 8
+#- End of number 8
 
 

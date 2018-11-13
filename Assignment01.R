@@ -23,6 +23,7 @@ print(NROW(coun_pop_10k <- subset(w, Population > 10000)$Country))
 #h
 x<-subset(w,Region == "Americas")
 print(head(x[order(x$ChildMortality, decreasing = FALSE),],5)$Country)
+
 #- End of number 1
 
 #- Problem number 2
@@ -79,6 +80,7 @@ print(kobe_lowest_season$Player)
 print(kobe_lowest_season$Year)
 print(kobe_lowest_season$MP)
 print(kobe_lowest_season$PER)
+
 #- End of number 3
 
 #- Problem number 4
@@ -101,4 +103,5 @@ university_ranking<-university_stat[order(university_stat$Rank,decreasing = FALS
 university_ranking<-university_ranking[1:10,]
 print(mean(university_ranking$Tuition.and.fees))
 print(university_ranking$Name)
+
 #- End of number 4
